@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(
+        180deg,
+        rgb(16, 3, 41) 0%,
+         rgb(21, 6, 77) 100%);
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   min-height: 100vh;
+}
+
+form{
+    background-color:  #181f28;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    width: 420px;
+    height: 700px;
+    text-align: center;
+    /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); */
+    box-shadow: -1px 0px 21px 35px rgba(0,0,0,0.7);
+-webkit-box-shadow: -1px 0px 21px 35px rgba(0,0,0,0.7);
+-moz-box-shadow: -1px 0px 21px 35px rgba(0,0,0,0.7);
+}
+
+.form-login{
+    padding-top: 120px;
+}
+
+form img{
+    width: 30%;
+    margin-bottom: 25px;
+}
+
+.input-container{
+    position: relative;
+}
+
+.input-container > i {
+    padding: 14px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background: linear-gradient(
+        180deg,
+        rgb(32, 32, 32) 0%,
+         rgb(201, 201, 201) 100%);
+    color: rgb(26, 28, 29);   
+    position: absolute; 
+    font-size: 20px;
+    top: 7px;
+    right: 8px; 
+}
+
+.input-container > input{
+    padding: 20px 50px 20px 15px;
+    width: 100%;
+    margin-bottom: 25px;
+    border-radius: 35px;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
+    background-color: transparent;
+    border: 2px solid aliceblue;
+    font-size: 17px;
+    outline: none;
+    color: #dbdbdb;
+}
+
+::placeholder{
+    color: #ffffff;
+    font-size: 17px;
+}
+
+form a{
+    display: block;
+    color:  #ffffff;
+    font-size: 17px;
+    text-decoration: none;
+    margin-bottom: 35px;
+}
+
+.btn{
+    background: linear-gradient(
+        180deg,
+        rgb(39, 38, 39) 0%,
+         rgb(143, 119, 11) 100%);
+    padding: 14px 75px;
+    border: 0;
+    box-shadow: 0 0 20px rgba(0, 0, 0, );
+}
+
+span{
+    color: red;
+}
+
